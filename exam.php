@@ -35,6 +35,19 @@ session_start(); // statrs the session
     <?php
       include 'partials/_exheader.php';
       ?>
+    <div class="container my-3">
+        <h1>SSC Short Syllabus</h1>
+    </div>
+    <div class="fix">
+        <a href="images/ssc-short.jpg" download class="btn btn-primary">Download Syllabus (Jpeg)</a>
+    </div>
+    <div class="container">
+        <img src="images/ssc-short.jpg" class="img-fluid" alt="Exam Routine Image">
+    </div>
+    <hr>
+    <div class="container">
+        <h1>SSC Result Improvement Exams routine (Expired)</h1>
+    </div>
     <div class="fix">
         <a href="exam.pdf" class="btn btn-primary">Download Routine (PDF)</a>
     </div>
