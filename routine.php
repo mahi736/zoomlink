@@ -16,6 +16,13 @@ session_start(); // starts the session.
     <title>Click and Join</title>
     <!-- extra css -->
     <style>
+        body{
+                background-color: black !important;
+                color: white !important;
+        }
+        th{
+                color: white !important;
+        }
         td a {
             text-decoration: none;
         }
@@ -28,6 +35,7 @@ session_start(); // starts the session.
         }
         .routinedate{
                font-weight: bold; 
+               color: white !important;
         }
     </style>
 </head>

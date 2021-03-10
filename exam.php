@@ -15,6 +15,10 @@ session_start(); // statrs the session
 
     <title>Exam Section</title>
     <style>
+    body{
+        background-color: black !important;
+        color: white !important;
+    }
     .img-fluid {
         height: 100%;
         width: 100%;
