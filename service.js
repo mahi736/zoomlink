@@ -26,7 +26,8 @@ var time;
 
 let clock = document.getElementById("clock")
 let datebl = document.getElementById("datebl")
-
+let button = document.getElementById("button")
+let passbl = document.getElementById("passbl")
   var routine = 
 [ [rk , inl , mar , ask],
   [rk , inl , mmu , mjh],
