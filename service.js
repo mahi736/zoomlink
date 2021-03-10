@@ -147,7 +147,7 @@ setInterval(() => {
     button.innerText = "Join Class";
     
     }else{
-      teach.innerHTML = "There is no class currently"
+      teach.innerHTML = "There is no class or exams right now"
       passbl.style.display = 'none';
       button.style.display = 'none';
     }
