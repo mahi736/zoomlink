@@ -28,6 +28,7 @@ let clock = document.getElementById("clock")
 let datebl = document.getElementById("datebl")
 let button = document.getElementById("button")
 let passbl = document.getElementById("passbl")
+let spin = document.getElementById("spin")
   var routine = 
 [ [rk , inl , mar , ask],
   [rk , inl , mmu , mjh],
@@ -88,8 +89,9 @@ let passbl = document.getElementById("passbl")
     datebl.innerHTML = n;
 }, 1000);
 
-
-
+setTimeout(() => {
+  spin.style.setProperty("display", "none", "important")
+}, 1000);
   
 setInterval(() => {
     passbl.style.display = 'block';

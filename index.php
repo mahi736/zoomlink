@@ -15,28 +15,42 @@
     <!-- extra css -->
 
     <style>
-    body{
-        background-color: black !important;
-        color: white;
-    }
-    .card-header, .card-body, .card-footer{
-        background-color: black !important;
-    }
-    .fix {
-        display: flex;
-        justify-content: right;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-    h3 {
-        color: green;
-    }
-    #clock{
-        color: white;
-        font-size: 2rem;
-    }
-    #datebl{
-        font-size: 1.3rem;
-    }
+        body {
+            background-color: black !important;
+            color: white;
+        }
+
+        .card-header,
+        .card-body,
+        .card-footer {
+            background-color: black !important;
+        }
+
+        .fix {
+            display: flex;
+            justify-content: right;
+        }
+
+        h3 {
+            color: green;
+        }
+
+        #clock {
+            color: white;
+            font-size: 2rem;
+        }
+
+        #datebl {
+            font-size: 1.3rem;
+        }
+        .more{
+            background-color: black !important;
+        }
     </style>
 </head>
 
@@ -68,8 +82,14 @@
         </div>
         <h2 class="text-danger my-3">Exams are on the way visit <b>Exam Section</b> for more details</h2>
         <div class="card text-center my-3">
+            
             <div class="card-header">
                 Classes
+            </div>
+            <div id="spin" class="d-flex justify-content-center more">
+                <div class="spinner-border" role="status">
+    
+                </div>
             </div>
             <div class="card-body">
                 <h5 id="teach" class="card-title"></h5>
@@ -105,7 +125,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
+        </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
